@@ -7,6 +7,10 @@
   max-width: 100%;
 }
 
+.flex-item-align-left {
+  margin-left: auto;
+}
+
 @media (--sm-viewport) {
   .container {
     max-width: 576px;

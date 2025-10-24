@@ -1,0 +1,22 @@
+.benefit-card {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.benefit-card__ico-container {
+  height: 100%;
+  width: auto;
+}
+
+.benefit-card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.benefit-card__text-wrapper {
+  color: black;
+  display: flex;
+  flex-direction: column;
+}

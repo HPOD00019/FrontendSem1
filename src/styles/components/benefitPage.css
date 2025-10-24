@@ -1,0 +1,6 @@
+.benefits-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 5rem;
+  place-items: center;
+}

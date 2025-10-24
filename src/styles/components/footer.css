@@ -1,0 +1,29 @@
+.footer__nav-panel {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  align-items: end;
+}
+
+.footer__description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__nav {
+  margin-left: auto;
+}
+
+.footer__footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-end-line {
+  flex: 1;
+}
+
+.footer-dates {
+  flex: 1;
+  text-align: right;
+}

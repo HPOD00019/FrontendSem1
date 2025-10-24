@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
     <style media="(prefers-color-scheme: light)">
       @import url('./src/styles/colors/light.css');
     </style>
@@ -13,7 +17,893 @@
       @import url('./src/styles/colors/dark.css');
     </style>
   </head>
+
   <body>
     <script type="module" src="/src/index.js"></script>
+
+
+    <div class="page page--bg-green">
+      <div class="main-page-header-wrapper header-fixed">
+          <div class="header main-page__header-panel padding-left-fight">
+            <div class="header_logo-panel">
+              <div class="brand-logo">
+
+                <div class="logo-img-container">
+                  <svg height="100%" width="100%" viewBox="0 0 45 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                    <g class="dark-treangle">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 33.75L0 0L22.5 16.875L45 33.75L0 33.75Z" />
+                    </g>
+
+                    <g class="light-treangle">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 33.75L0 0L22.5 16.875L45 33.75L0 33.75Z" />
+                    </g>
+                  </svg>      
+                </div>
+
+                <p class="brand-logo__text">
+                  Tweakful
+                </p>
+              </div>
+            </div>
+            <div class="header__button-panel">
+              <button type="button" class="link-button">
+                <span class="link-button__text">Home</span>
+              </button>
+
+              <button type="button" class="link-button">
+                <span class="link-button__text">Features</span>
+              </button>
+              <button type="button" class="link-button">
+                <span class="link-button__text">Pricing</span>
+              </button>
+              <button type="button" class="link-button">
+                <span class="link-button__text">About Us</span>
+              </button>
+              <button type="button" class="link-button">
+                <span class="link-button__text">Help</span>
+              </button>
+
+            </div>
+
+            <button type="button" class="button button--bg-blue  flex-item-align-left">
+              <span class="button__text">Book A Meeting</span>
+              <svg class="button__ico " width="100%" height="100%" viewBox="0 0 20 10"  xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.17 6L13.59 8.59L15 10L20 5L15 0L13.59 1.41L16.17 4H0V6H16.17Z" />
+              </svg>
+
+            </button>
+          </div>
+      </div>
+      <div class="main-page-content-wrapper padding-left-fight">
+        <h1 class="title title--light">
+          This headline is the gist of the Your whole Website That can Either Make Or Break
+        </h1>
+        <h2 class="main-page__text-content">
+          “E-commerce shipping Pack collects different ways to do quick shopping, pay in a second, and get all those stuff you need. There are smart delivery and polite service in the scenes. Each of them is realized in cold and warm colors with 
+        </h2>      
+
+        <div class="main-page__ceo-panel">
+          <div class="ceo-img-container">
+            <img src="./src/shared/media/Rectangley 379.png" alt="" class="ceo-img"/>
+          </div>
+          <div class="ceo-information-container">
+            <p class="ceo-name-text">Jesica Kumari</p>
+            <p class="ceo-description">CEO Of Acme Limited</p>
+          </div>
+        </div>
+
+        <div class="main-page__nav-button-wrapper">
+            <button type="button" class="button button--lg button--bg-blue  flex-item-align-left">
+              <span class="button__text">Explore More About This</span>
+              <svg class="button__ico " width="100%" height="100%" viewBox="0 0 20 10"  xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.17 6L13.59 8.59L15 10L20 5L15 0L13.59 1.41L16.17 4H0V6H16.17Z" />
+              </svg>
+            </button> 
+        </div>
+      </div>
+    </div>
+
+    <div class="page page--bg-green padding-left-fight">
+      <div class="solution-page__title-container">
+        <h2 class="title title--sm title--light title--centered">
+          Solutions that connect you to your Prospects & Clients
+        </h2>
+      </div>
+      <div class="solutions-cards-container">
+        <div class="solution-card">
+          <div class="solution-card__ico">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30.6668 8.00004V2.66671C30.6668 2.31309 30.5264 1.97395 30.2763 1.7239C30.0263 1.47385 29.6871 1.33337 29.3335 1.33337H2.66683C2.31321 1.33337 1.97407 1.47385 1.72402 1.7239C1.47397 1.97395 1.3335 2.31309 1.3335 2.66671V8.00004H30.6668Z" fill="#46BA71"/>
+              <path d="M1.3335 10.6667V29.3334C1.3335 29.687 1.47397 30.0262 1.72402 30.2762C1.97407 30.5263 2.31321 30.6667 2.66683 30.6667H9.3335V10.6667H1.3335Z" fill="#F46953"/>
+              <path d="M12 30.6667H29.3333C29.687 30.6667 30.0261 30.5263 30.2761 30.2762C30.5262 30.0262 30.6667 29.687 30.6667 29.3334V10.6667H12V30.6667Z" fill="#2E4FD7"/>
+            </svg>
+          </div>
+          <div class="solution-card__text-wrapper">
+            <h3 class="solution-card__title title--xs">Mobile Application</h3>
+            <p class="solution-card__description">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
+          </div>
+          
+          <div class="solution-card__button-wrapper">
+            <button type="button " class="button flex-item-align-left">
+              <span class="button__text button__text--blue">Explore</span>
+              <svg class="button__ico button__ico--bg-blue"  width="100%" height="100%" viewBox="0 0 20 10"  xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.17 6L13.59 8.59L15 10L20 5L15 0L13.59 1.41L16.17 4H0V6H16.17Z" />
+              </svg>
+            </button> 
+          </div>
+        </div>
+
+        <div class="solution-card">
+          <div class="solution-card__ico">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30.6668 8.00004V2.66671C30.6668 2.31309 30.5264 1.97395 30.2763 1.7239C30.0263 1.47385 29.6871 1.33337 29.3335 1.33337H2.66683C2.31321 1.33337 1.97407 1.47385 1.72402 1.7239C1.47397 1.97395 1.3335 2.31309 1.3335 2.66671V8.00004H30.6668Z" fill="#46BA71"/>
+              <path d="M1.3335 10.6667V29.3334C1.3335 29.687 1.47397 30.0262 1.72402 30.2762C1.97407 30.5263 2.31321 30.6667 2.66683 30.6667H9.3335V10.6667H1.3335Z" fill="#F46953"/>
+              <path d="M12 30.6667H29.3333C29.687 30.6667 30.0261 30.5263 30.2761 30.2762C30.5262 30.0262 30.6667 29.687 30.6667 29.3334V10.6667H12V30.6667Z" fill="#2E4FD7"/>
+            </svg>
+          </div>
+          <div class="solution-card__text-wrapper">
+            <h3 class="solution-card__title title--xs">Mobile Application</h3>
+            <p class="solution-card__description">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
+          </div>
+          
+          <div class="solution-card__button-wrapper">
+            <button type="button " class="button flex-item-align-left">
+              <span class="button__text button__text--blue">Explore</span>
+              <svg class="button__ico button__ico--bg-blue"  width="100%" height="100%" viewBox="0 0 20 10"  xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.17 6L13.59 8.59L15 10L20 5L15 0L13.59 1.41L16.17 4H0V6H16.17Z" />
+              </svg>
+            </button> 
+          </div>
+        </div>
+
+        <div class="solution-card">
+          <div class="solution-card__ico">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30.6668 8.00004V2.66671C30.6668 2.31309 30.5264 1.97395 30.2763 1.7239C30.0263 1.47385 29.6871 1.33337 29.3335 1.33337H2.66683C2.31321 1.33337 1.97407 1.47385 1.72402 1.7239C1.47397 1.97395 1.3335 2.31309 1.3335 2.66671V8.00004H30.6668Z" fill="#46BA71"/>
+              <path d="M1.3335 10.6667V29.3334C1.3335 29.687 1.47397 30.0262 1.72402 30.2762C1.97407 30.5263 2.31321 30.6667 2.66683 30.6667H9.3335V10.6667H1.3335Z" fill="#F46953"/>
+              <path d="M12 30.6667H29.3333C29.687 30.6667 30.0261 30.5263 30.2761 30.2762C30.5262 30.0262 30.6667 29.687 30.6667 29.3334V10.6667H12V30.6667Z" fill="#2E4FD7"/>
+            </svg>
+          </div>
+          <div class="solution-card__text-wrapper">
+            <h3 class="solution-card__title title--xs">Mobile Application</h3>
+            <p class="solution-card__description">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
+          </div>
+          
+          <div class="solution-card__button-wrapper">
+            <button type="button " class="button flex-item-align-left">
+              <span class="button__text button__text--blue">Explore</span>
+              <svg class="button__ico button__ico--bg-blue"  width="100%" height="100%" viewBox="0 0 20 10"  xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.17 6L13.59 8.59L15 10L20 5L15 0L13.59 1.41L16.17 4H0V6H16.17Z" />
+              </svg>
+            </button> 
+          </div>
+        </div>
+
+
+        <div class="solution-card">
+          <div class="solution-card__ico">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30.6668 8.00004V2.66671C30.6668 2.31309 30.5264 1.97395 30.2763 1.7239C30.0263 1.47385 29.6871 1.33337 29.3335 1.33337H2.66683C2.31321 1.33337 1.97407 1.47385 1.72402 1.7239C1.47397 1.97395 1.3335 2.31309 1.3335 2.66671V8.00004H30.6668Z" fill="#46BA71"/>
+              <path d="M1.3335 10.6667V29.3334C1.3335 29.687 1.47397 30.0262 1.72402 30.2762C1.97407 30.5263 2.31321 30.6667 2.66683 30.6667H9.3335V10.6667H1.3335Z" fill="#F46953"/>
+              <path d="M12 30.6667H29.3333C29.687 30.6667 30.0261 30.5263 30.2761 30.2762C30.5262 30.0262 30.6667 29.687 30.6667 29.3334V10.6667H12V30.6667Z" fill="#2E4FD7"/>
+            </svg>
+          </div>
+          <div class="solution-card__text-wrapper">
+            <h3 class="solution-card__title title--xs">Mobile Application</h3>
+            <p class="solution-card__description">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
+          </div>
+          
+          <div class="solution-card__button-wrapper">
+            <button type="button " class="button flex-item-align-left">
+              <span class="button__text button__text--blue">Explore</span>
+              <svg class="button__ico button__ico--bg-blue"  width="100%" height="100%" viewBox="0 0 20 10"  xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.17 6L13.59 8.59L15 10L20 5L15 0L13.59 1.41L16.17 4H0V6H16.17Z" />
+              </svg>
+            </button> 
+          </div>
+        </div>
+
+        <div class="solution-card">
+          <div class="solution-card__ico">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30.6668 8.00004V2.66671C30.6668 2.31309 30.5264 1.97395 30.2763 1.7239C30.0263 1.47385 29.6871 1.33337 29.3335 1.33337H2.66683C2.31321 1.33337 1.97407 1.47385 1.72402 1.7239C1.47397 1.97395 1.3335 2.31309 1.3335 2.66671V8.00004H30.6668Z" fill="#46BA71"/>
+              <path d="M1.3335 10.6667V29.3334C1.3335 29.687 1.47397 30.0262 1.72402 30.2762C1.97407 30.5263 2.31321 30.6667 2.66683 30.6667H9.3335V10.6667H1.3335Z" fill="#F46953"/>
+              <path d="M12 30.6667H29.3333C29.687 30.6667 30.0261 30.5263 30.2761 30.2762C30.5262 30.0262 30.6667 29.687 30.6667 29.3334V10.6667H12V30.6667Z" fill="#2E4FD7"/>
+            </svg>
+          </div>
+          <div class="solution-card__text-wrapper">
+            <h3 class="solution-card__title title--xs">Mobile Application</h3>
+            <p class="solution-card__description">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
+          </div>
+          
+          <div class="solution-card__button-wrapper">
+            <button type="button " class="button flex-item-align-left">
+              <span class="button__text button__text--blue">Explore</span>
+              <svg class="button__ico button__ico--bg-blue"  width="100%" height="100%" viewBox="0 0 20 10"  xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.17 6L13.59 8.59L15 10L20 5L15 0L13.59 1.41L16.17 4H0V6H16.17Z" />
+              </svg>
+            </button> 
+          </div>
+        </div>
+
+        <div class="solution-card">
+          <div class="solution-card__ico">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30.6668 8.00004V2.66671C30.6668 2.31309 30.5264 1.97395 30.2763 1.7239C30.0263 1.47385 29.6871 1.33337 29.3335 1.33337H2.66683C2.31321 1.33337 1.97407 1.47385 1.72402 1.7239C1.47397 1.97395 1.3335 2.31309 1.3335 2.66671V8.00004H30.6668Z" fill="#46BA71"/>
+              <path d="M1.3335 10.6667V29.3334C1.3335 29.687 1.47397 30.0262 1.72402 30.2762C1.97407 30.5263 2.31321 30.6667 2.66683 30.6667H9.3335V10.6667H1.3335Z" fill="#F46953"/>
+              <path d="M12 30.6667H29.3333C29.687 30.6667 30.0261 30.5263 30.2761 30.2762C30.5262 30.0262 30.6667 29.687 30.6667 29.3334V10.6667H12V30.6667Z" fill="#2E4FD7"/>
+            </svg>
+          </div>
+          <div class="solution-card__text-wrapper">
+            <h3 class="solution-card__title title--xs">Mobile Application</h3>
+            <p class="solution-card__description">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
+          </div>
+          
+          <div class="solution-card__button-wrapper">
+            <button type="button " class="button flex-item-align-left">
+              <span class="button__text button__text--blue">Explore</span>
+              <svg class="button__ico button__ico--bg-blue"  width="100%" height="100%" viewBox="0 0 20 10"  xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.17 6L13.59 8.59L15 10L20 5L15 0L13.59 1.41L16.17 4H0V6H16.17Z" />
+              </svg>
+            </button> 
+          </div>
+        </div>
+      </div>
+
+      <div class="solution-page__bottom-button-container">
+        <button type="button" class="button button--border">
+          <span class="button__text">Button Text</span>
+          <svg class="button__ico " viewBox="0 0 20 10"  xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.17 6L13.59 8.59L15 10L20 5L15 0L13.59 1.41L16.17 4H0V6H16.17Z" />
+          </svg>
+        </button>
+      </div>    
+    </div>
+
+  <div class="padding-left-fight page page--bg-light">
+    <h2 class="title title--dark title--sm">
+      Benefits of working with us
+    </h2>
+    <div class="benefits-cards-container">
+      <div class="benefit-card">
+        <div class="benefit-card__ico-container">
+          <svg class="benefit-card__ico" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="72" height="72" rx="36" fill="#E7EBFC"/>
+            <g clip-path="url(#clip0_217_506)">
+              <path d="M42 34H48L45 30L42 34ZM42 38H48L45 42L42 38Z" fill="#F46953"/>
+              <path d="M25 24H31V48H25C24.7348 48 24.4804 47.8946 24.2929 47.7071C24.1054 47.5196 24 47.2652 24 47V25C24 24.7348 24.1054 24.4804 24.2929 24.2929C24.4804 24.1054 24.7348 24 25 24Z" fill="#2E4FD7"/>
+              <path d="M33 24H39C39.2652 24 39.5196 24.1054 39.7071 24.2929C39.8946 24.4804 40 24.7348 40 25V47C40 47.2652 39.8946 47.5196 39.7071 47.7071C39.5196 47.8946 39.2652 48 39 48H33V24Z" fill="#46BA71"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_217_506">
+                <rect width="24" height="24" fill="white" transform="translate(24 24)"/>
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <div class="benefit-card__text-wrapper">
+          <h3 class="benefit-card__title title--xs title--straight">
+            Time zones ain’t no thing
+          </h3>
+          <p class="benefit-card__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.
+          </p>
+        </div>
+      </div>
+
+
+
+
+      <div class="benefit-card">
+        <div class="benefit-card__ico-container">
+          <svg class="benefit-card__ico" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="72" height="72" rx="36" fill="#E7EBFC"/>
+            <g clip-path="url(#clip0_217_506)">
+              <path d="M42 34H48L45 30L42 34ZM42 38H48L45 42L42 38Z" fill="#F46953"/>
+              <path d="M25 24H31V48H25C24.7348 48 24.4804 47.8946 24.2929 47.7071C24.1054 47.5196 24 47.2652 24 47V25C24 24.7348 24.1054 24.4804 24.2929 24.2929C24.4804 24.1054 24.7348 24 25 24Z" fill="#2E4FD7"/>
+              <path d="M33 24H39C39.2652 24 39.5196 24.1054 39.7071 24.2929C39.8946 24.4804 40 24.7348 40 25V47C40 47.2652 39.8946 47.5196 39.7071 47.7071C39.5196 47.8946 39.2652 48 39 48H33V24Z" fill="#46BA71"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_217_506">
+                <rect width="24" height="24" fill="white" transform="translate(24 24)"/>
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <div class="benefit-card__text-wrapper">
+          <h3 class="benefit-card__title title--xs title--straight">
+            Time zones ain’t no thing
+          </h3>
+          <p class="benefit-card__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.
+          </p>
+        </div>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-card__ico-container">
+          <svg class="benefit-card__ico" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="72" height="72" rx="36" fill="#E7EBFC"/>
+            <g clip-path="url(#clip0_217_506)">
+              <path d="M42 34H48L45 30L42 34ZM42 38H48L45 42L42 38Z" fill="#F46953"/>
+              <path d="M25 24H31V48H25C24.7348 48 24.4804 47.8946 24.2929 47.7071C24.1054 47.5196 24 47.2652 24 47V25C24 24.7348 24.1054 24.4804 24.2929 24.2929C24.4804 24.1054 24.7348 24 25 24Z" fill="#2E4FD7"/>
+              <path d="M33 24H39C39.2652 24 39.5196 24.1054 39.7071 24.2929C39.8946 24.4804 40 24.7348 40 25V47C40 47.2652 39.8946 47.5196 39.7071 47.7071C39.5196 47.8946 39.2652 48 39 48H33V24Z" fill="#46BA71"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_217_506">
+                <rect width="24" height="24" fill="white" transform="translate(24 24)"/>
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <div class="benefit-card__text-wrapper">
+          <h3 class="benefit-card__title title--xs title--straight">
+            Time zones ain’t no thing
+          </h3>
+          <p class="benefit-card__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.
+          </p>
+        </div>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-card__ico-container">
+          <svg class="benefit-card__ico" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="72" height="72" rx="36" fill="#E7EBFC"/>
+            <g clip-path="url(#clip0_217_506)">
+              <path d="M42 34H48L45 30L42 34ZM42 38H48L45 42L42 38Z" fill="#F46953"/>
+              <path d="M25 24H31V48H25C24.7348 48 24.4804 47.8946 24.2929 47.7071C24.1054 47.5196 24 47.2652 24 47V25C24 24.7348 24.1054 24.4804 24.2929 24.2929C24.4804 24.1054 24.7348 24 25 24Z" fill="#2E4FD7"/>
+              <path d="M33 24H39C39.2652 24 39.5196 24.1054 39.7071 24.2929C39.8946 24.4804 40 24.7348 40 25V47C40 47.2652 39.8946 47.5196 39.7071 47.7071C39.5196 47.8946 39.2652 48 39 48H33V24Z" fill="#46BA71"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_217_506">
+                <rect width="24" height="24" fill="white" transform="translate(24 24)"/>
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <div class="benefit-card__text-wrapper">
+          <h3 class="benefit-card__title title--xs title--straight">
+            Time zones ain’t no thing
+          </h3>
+          <p class="benefit-card__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="artist-panel-holder">
+      <div class="artist-panel__button-container">
+        <button type="button" class="button circle-button circle-button--lg">
+          <svg  width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="circle-button__bg-ico">
+              <circle cx="32.5" cy="32.5" r="32.5"/>
+            </g>
+            <g class="circle-button-ico">
+              <rect opacity="0.01" x="48.5" y="16.5" width="32" height="32" transform="rotate(90 48.5 16.5)" fill="#A1B3F4"/>
+              <path d="M41.8335 31.1667L26.0202 31.1667L30.8602 25.3534C31.3314 24.7864 31.2538 23.9447 30.6868 23.4734C30.1198 23.0021 29.2781 23.0797 28.8068 23.6467L22.1402 31.6467C22.0953 31.7104 22.0552 31.7772 22.0202 31.8467C22.0202 31.9134 22.0202 31.9534 21.9268 32.0201C21.8664 32.173 21.8348 32.3357 21.8335 32.5001C21.8348 32.6645 21.8664 32.8272 21.9268 32.9801C21.9268 33.0467 21.9268 33.0867 22.0202 33.1534C22.0552 33.2229 22.0953 33.2898 22.1402 33.3534L28.8068 41.3534C29.0606 41.6581 29.4369 41.8341 29.8335 41.8334C30.145 41.834 30.4469 41.7255 30.6868 41.5267C30.9595 41.3007 31.131 40.9754 31.1635 40.6227C31.1961 40.27 31.0869 39.9188 30.8602 39.6467L26.0202 33.8334L41.8335 33.8334C42.5699 33.8334 43.1668 33.2365 43.1668 32.5001C43.1668 31.7637 42.5699 31.1667 41.8335 31.1667Z"/>
+            </g>
+          </svg>
+        </button>
+      </div>
+      <div class="artist-panel">
+        <img class="artist-panel__img" src="./src/shared/media/lady.png" alt="">
+        <div class="artist-panel__text-content">
+          <p class="artist-panel-description">There are smart delivery and polite service in the scenes. Each of them is realized in cold and warm colors with sky.</p>
+          <img class="artist-logo" src="./src/shared/media/Logitech.svg" alt="">
+          <p class="artist-name">David Gillroy</p>
+          <p class="artist-job">Digital Artist At Digital Group</p>
+        </div>
+      </div>
+      <div class="artist-panel__button-container">
+        <button type="button" class="button circle-button circle-button--lg">
+          <svg  width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="circle-button__bg-ico">
+              <circle cx="32.5" cy="32.5" r="32.5"/>
+            </g>
+            <g class="circle-button-ico">
+              <rect opacity="0.01" x="48.5" y="16.5" width="32" height="32" transform="rotate(90 48.5 16.5)" fill="#A1B3F4"/>
+              <path d="M41.8335 31.1667L26.0202 31.1667L30.8602 25.3534C31.3314 24.7864 31.2538 23.9447 30.6868 23.4734C30.1198 23.0021 29.2781 23.0797 28.8068 23.6467L22.1402 31.6467C22.0953 31.7104 22.0552 31.7772 22.0202 31.8467C22.0202 31.9134 22.0202 31.9534 21.9268 32.0201C21.8664 32.173 21.8348 32.3357 21.8335 32.5001C21.8348 32.6645 21.8664 32.8272 21.9268 32.9801C21.9268 33.0467 21.9268 33.0867 22.0202 33.1534C22.0552 33.2229 22.0953 33.2898 22.1402 33.3534L28.8068 41.3534C29.0606 41.6581 29.4369 41.8341 29.8335 41.8334C30.145 41.834 30.4469 41.7255 30.6868 41.5267C30.9595 41.3007 31.131 40.9754 31.1635 40.6227C31.1961 40.27 31.0869 39.9188 30.8602 39.6467L26.0202 33.8334L41.8335 33.8334C42.5699 33.8334 43.1668 33.2365 43.1668 32.5001C43.1668 31.7637 42.5699 31.1667 41.8335 31.1667Z"/>
+            </g>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="logos-panel">
+      <div class="logos-panel__description">
+        <p class="consumers-count">1,500+</p>
+        <p class="consumers-description">Customers who have used Tweakful engagement design approach</p>
+      </div>
+      <div class="logos-container ">
+        <img class="logos-item" src="./src/shared/media/AirbnbLogo.svg"/>
+        <img class="logos-item" src="./src/shared/media/AmazonLogo.svg"/>
+        <img class="logos-item" src="./src/shared/media/FedExLogo.svg"/>
+        <img class="logos-item" src="./src/shared/media/GoogleLogo.svg"/>
+        <img class="logos-item" src="./src/shared/media/Microsoft Logo.png"/>
+        <img class="logos-item" src="./src/shared/media/OYOlogo.png"/>
+        <img class="logos-item" src="./src/shared/media/WalmartLogo.png"/>
+        <img class="logos-item" src="./src/shared/media/OLAlogo.svg"/>
+      </div>
+    </div>  
+    <div class="teammates-panel">
+      <h2 class="title title--sm title--dark" >Meet Our Teammates</h2>
+      <div class="teammate-cards-container">
+        <div class="teammate-card">
+          <div class="teammate-card__img-container">
+            <svg viewBox="0 0 100 100" class="teammate-card-img" xmlns="http://www.w3.org/2000/svg">
+              <rect width="100" height="100"/>
+            </svg>
+          </div>
+          <div class="teammate-card__info-container">
+            <p class="teammate-name">Samuel Willson</p>
+            <p class="teammate-job">Digital Artist</p>
+            <div class="teammate-contacts-container">
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="teammate-card">
+          <div class="teammate-card__img-container">
+            <svg viewBox="0 0 100 100" class="teammate-card-img" xmlns="http://www.w3.org/2000/svg">
+              <rect width="100" height="100"/>
+            </svg>
+          </div>
+          <div class="teammate-card__info-container">
+            <p class="teammate-name">Samuel Willson</p>
+            <p class="teammate-job">Digital Artist</p>
+            <div class="teammate-contacts-container">
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="teammate-card">
+          <div class="teammate-card__img-container">
+            <svg viewBox="0 0 100 100" class="teammate-card-img" xmlns="http://www.w3.org/2000/svg">
+              <rect width="100" height="100"/>
+            </svg>
+          </div>
+          <div class="teammate-card__info-container">
+            <p class="teammate-name">Samuel Willson</p>
+            <p class="teammate-job">Digital Artist</p>
+            <div class="teammate-contacts-container">
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="teammate-card">
+          <div class="teammate-card__img-container">
+            <svg viewBox="0 0 100 100" class="teammate-card-img" xmlns="http://www.w3.org/2000/svg">
+              <rect width="100" height="100"/>
+            </svg>
+          </div>
+          <div class="teammate-card__info-container">
+            <p class="teammate-name">Samuel Willson</p>
+            <p class="teammate-job">Digital Artist</p>
+            <div class="teammate-contacts-container">
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="teammate-card">
+          <div class="teammate-card__img-container">
+            <svg viewBox="0 0 100 100" class="teammate-card-img" xmlns="http://www.w3.org/2000/svg">
+              <rect width="100" height="100"/>
+            </svg>
+          </div>
+          <div class="teammate-card__info-container">
+            <p class="teammate-name">Samuel Willson</p>
+            <p class="teammate-job">Digital Artist</p>
+            <div class="teammate-contacts-container">
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="teammate-card">
+          <div class="teammate-card__img-container">
+            <svg viewBox="0 0 100 100" class="teammate-card-img" xmlns="http://www.w3.org/2000/svg">
+              <rect width="100" height="100"/>
+            </svg>
+          </div>
+          <div class="teammate-card__info-container">
+            <p class="teammate-name">Samuel Willson</p>
+            <p class="teammate-job">Digital Artist</p>
+            <div class="teammate-contacts-container">
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="teammate-card">
+          <div class="teammate-card__img-container">
+            <svg viewBox="0 0 100 100" class="teammate-card-img" xmlns="http://www.w3.org/2000/svg">
+              <rect width="100" height="100"/>
+            </svg>
+          </div>
+          <div class="teammate-card__info-container">
+            <p class="teammate-name">Samuel Willson</p>
+            <p class="teammate-job">Digital Artist</p>
+            <div class="teammate-contacts-container">
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="teammate-card">
+          <div class="teammate-card__img-container">
+            <svg viewBox="0 0 100 100" class="teammate-card-img" xmlns="http://www.w3.org/2000/svg">
+              <rect width="100" height="100"/>
+            </svg>
+          </div>
+          <div class="teammate-card__info-container">
+            <p class="teammate-name">Samuel Willson</p>
+            <p class="teammate-job">Digital Artist</p>
+            <div class="teammate-contacts-container">
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+              <a  class="circle-button">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g class="circle-button__bg-ico">
+                    <circle cx="16" cy="16" r="16"/>
+                  </g>
+                  <g class="circle-button-ico">
+                    <rect opacity="0.01" x="24" y="23" width="16" height="16" transform="rotate(180 24 23)" />
+                    <path d="M18.1002 12.6001C17.0682 12.5966 16.0772 13.0036 15.3456 13.7314C14.6141 14.4593 14.202 15.4482 14.2002 16.4801V20.4001C14.2002 20.5593 14.2634 20.7119 14.3759 20.8244C14.4885 20.9369 14.6411 21.0001 14.8002 21.0001H16.2002C16.5316 21.0001 16.8002 20.7315 16.8002 20.4001V16.4801C16.7999 16.1126 16.9561 15.7623 17.2296 15.5167C17.5031 15.2712 17.8681 15.1537 18.2335 15.1935C18.9042 15.2779 19.4055 15.8509 19.4002 16.5268V20.4001C19.4002 20.7315 19.6688 21.0001 20.0002 21.0001H21.4002C21.7316 21.0001 22.0002 20.7315 22.0002 20.4001V16.4801C21.9984 15.4482 21.5863 14.4593 20.8547 13.7314C20.1232 13.0036 19.1322 12.5966 18.1002 12.6001Z" />
+                    <rect x="10" y="13.2002" width="3" height="7.8" rx="0.9"/>
+                    <circle cx="11.5" cy="10.5" r="1.5" /> 
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="closing-headline page padding-left-fight page--bg-blue">
+    <div class="closing-text-container">
+      <p class="title title--sm title--centered title--dark">The Is Closing Headline To Make A Impact For Call To Action </p>
+      <p class="closing-headline__text title--centered title--xs title--dark" >Nowadays, it isn’t uncommon to see lenders rapidly adopting a digital lending strategy to streamline the lending process nowadays, it isn’t uncommon to see lenders rapidly</p>
+    </div>
+    <div class="closing-headline__button">
+      <button type="button" class="button button--bg-blue">
+        <span class="button__text">Book A Meeting</span>
+        <svg class="button__ico " width="100%" height="100%" viewBox="0 0 20 10"  xmlns="http://www.w3.org/2000/svg">
+          <path d="M16.17 6L13.59 8.59L15 10L20 5L15 0L13.59 1.41L16.17 4H0V6H16.17Z" />
+        </svg>
+      </button>      
+    </div>
+
+  </div>
+
+  <div class="footer-wrapper padding-left-fight page--bg-green">
+    <p class="logo">Tweakful</p>
+    <div class="footer__nav-panel">
+        <a class="footer__logo-link">About Tweakful</a>
+              
+      
+        <ul class="footer__nav nav__list">
+          <li class="nav__item"><a class="nav__link" href="#">Plant pots</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Ceramics</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Tables</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Chairs</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Crockery</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Tableware</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Cutlery</a></li>
+        </ul>
+        <p class="footer__text-content">Tweakful is HubSpot Theme Based On Engagement Design Framework, designed & developed by Openthrive.</p>
+
+        <ul class="footer__nav nav__list">
+          <li class="nav__item"><a class="nav__link" href="#">Plant pots</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Ceramics</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Tables</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Chairs</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Crockery</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Tableware</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Cutlery</a></li>
+        </ul>
+    </div>
+    <button type="button" class="button button--no-paddings">
+      <span class="button__text">Button Text</span>
+      <svg class="button__ico " viewBox="0 0 20 10"  xmlns="http://www.w3.org/2000/svg">
+        <path d="M16.17 6L13.59 8.59L15 10L20 5L15 0L13.59 1.41L16.17 4H0V6H16.17Z" />
+      </svg>
+    </button>
+
+    <div class="line"></div>
+    <div class="footer__footer">
+      <p class="footer-end-line">
+        B2B website and engagement design solution that transform marketing and sales performance like never before.
+      </p>
+      <p class="footer-dates">© 2015-2020 Openthrive. All right reserved.</p>
+    </div>
+  </div>
   </body>
 </html>

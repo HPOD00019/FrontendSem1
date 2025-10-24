@@ -1,0 +1,45 @@
+.solution-card__button {
+  color: var(--color-button-bg);
+  align-items: center;
+  gap: 1em;
+  border: none;
+}
+
+.solution-card__button-ico {
+  fill: var(--color-button-bg);
+  height: 0.5em;
+  width: auto;
+}
+
+.solution-card__button-wrapper {
+  margin-top: auto;
+}
+
+.solution-card__ico {
+  margin-bottom: auto;
+}
+
+.solution-card__button-content-wrapper {
+  margin-top: auto;
+  display: inline-flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.solution-card {
+  max-width: 20rem;
+  border-radius: 5px;
+  height: 100%;
+  justify-content: center;
+  padding: 2rem 1rem;
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.solution-card__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}

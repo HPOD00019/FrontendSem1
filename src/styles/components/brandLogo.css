@@ -1,0 +1,11 @@
+.brand-logo {
+  height: 3rem;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.brand-logo__text {
+  color: black;
+  font-size: 1.5rem;
+}

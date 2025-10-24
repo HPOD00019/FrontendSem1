@@ -1,0 +1,30 @@
+.title {
+  font-size: var(--font-xl, 0.1rem);
+  font-weight: var(--font-bold, 100);
+  font-family: var(--font-family);
+}
+
+.title--sm {
+  font-size: var(--font-lg, 0.3rem);
+}
+
+.title--light {
+  color: white;
+}
+
+.title--dark {
+  color: black;
+}
+
+.title--centered {
+  text-align: center;
+}
+
+.title--xs {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.title--straight {
+  white-space: nowrap;
+}

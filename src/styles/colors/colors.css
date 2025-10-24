@@ -1,4 +1,11 @@
 :root {
+  --color-green-dark: #052825;
+  --color-button-bg: #2e4fd7;
   --color-white: #e3e3e3;
   --color-black: #1d1d1d;
+  --color-primary: #052825;
+  --color-tweakful-light-triangle: #46ba71;
+  --color-tweakful-dark-triangle: #2e4fd7;
+  --color-blue: #2e4fd7;
+  --color-grey: #e7ebfc;
 }

@@ -1,0 +1,36 @@
+.teammate-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.teammate-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 20%));
+  gap: 5%;
+}
+
+.teammate-card-img {
+  fill: #e7ebfc;
+}
+
+.teammate-contacts-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.teammate-card__info-container {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.teammate-name {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.teammate-job {
+  font-size: 1.5rem;
+  font-weight: 450;
+}

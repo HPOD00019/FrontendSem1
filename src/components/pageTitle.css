@@ -1,0 +1,16 @@
+.page-title {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.page-title_color-light {
+  color: white;
+}
+
+.page-title_color-dark {
+  color: black;
+}
+
+.page-title_centered {
+  text-align: center;
+}

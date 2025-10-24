@@ -1,0 +1,19 @@
+.page {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding-bottom: 10rem;
+}
+
+.page--bg-light {
+  background-color: white;
+}
+
+.page--bg-green {
+  background-color: var(--color-green-dark);
+}
+
+.page--bg-blue {
+  background-color: #e7ebfc;
+}

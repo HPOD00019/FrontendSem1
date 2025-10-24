@@ -1,0 +1,39 @@
+.header {
+  background-color: var(--color-header-bg, white);
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__buttons-panel {
+}
+
+.dark-treangle {
+  fill: var(--color-tweakful-dark-triangle);
+  scale: 0.5;
+  transform: translate(40%, 40%);
+}
+
+.light-treangle {
+  fill: var(--color-tweakful-light-triangle);
+  transform: rotate(180deg);
+  transform-origin: 50% 50%;
+  scale: 0.5;
+}
+
+.header_logo-panel {
+  height: 3rem;
+  width: auto;
+}
+
+.header__logo-sign {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.header__button-panel {
+  display: flex;
+  margin-left: 20rem;
+  column-gap: 1rem;
+}
