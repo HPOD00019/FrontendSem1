@@ -1,0 +1,31 @@
+.circle-button {
+  --ico-color: var(--color-blue);
+
+  transition: --ico-color 0.9s ease;
+  padding: 0;
+  border: none;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.circle-button__bg-ico {
+  height: 100%;
+  width: auto;
+  fill: #e7ebfc;
+}
+
+.circle-button__ico {
+  height: 100%;
+  width: auto;
+  fill: var(--ico-color);
+}
+
+.circle-button--lg {
+  height: 4rem;
+  width: 4rem;
+}
+
+.circle-button:hover {
+  --ico-color: red;
+}

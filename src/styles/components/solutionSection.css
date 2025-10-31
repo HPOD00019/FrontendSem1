@@ -1,4 +1,14 @@
-.solutions-cards-container {
+.solution-section {
+  background-color: var(--color-green);
+}
+
+.solution-section__title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.solution-section__cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 5rem;
@@ -7,13 +17,7 @@
   justify-items: center;
 }
 
-.solution-page__title-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.solution-page__bottom-button-container {
+.solution-page__footer {
   width: 100%;
   display: flex;
   justify-content: center;

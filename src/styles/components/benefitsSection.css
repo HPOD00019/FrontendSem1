@@ -1,6 +1,11 @@
-.benefits-cards-container {
+.benefits-section__cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 5rem;
   place-items: center;
+}
+
+.benefits-section {
+  padding-top: 10rem;
+  background-color: white;
 }

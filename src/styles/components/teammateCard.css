@@ -3,37 +3,30 @@
   flex-direction: column;
 }
 
-.teammate-cards-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 20%));
-  gap: 2%;
-  justify-content: space-between;
-}
-
-.teammate-card-img {
+.teammate-card__img {
   fill: #e7ebfc;
   width: 250px;
   height: auto;
 }
 
-.teammate-contacts-container {
+.teammate__contacts {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
 }
 
-.teammate-card__info-container {
+.teammate-card__info {
   display: flex;
   flex-direction: column;
   color: black;
 }
 
-.teammate-name {
+.teammate__name {
   font-size: 2rem;
   font-weight: 500;
 }
 
-.teammate-job {
+.teammate__job {
   font-size: 1.5rem;
   font-weight: 450;
 }

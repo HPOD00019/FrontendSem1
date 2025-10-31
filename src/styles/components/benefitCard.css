@@ -4,10 +4,6 @@
   gap: 1rem;
 }
 
-.benefit-card__ico-container {
-  flex-shrink: 0;
-}
-
 .benefit-card__text-wrapper {
   color: black;
   display: flex;
@@ -15,6 +11,16 @@
 }
 
 .benefit-card__ico {
+  flex-shrink: 0;
   height: 72px;
   width: auto;
+}
+
+.benefit-card__title {
+}
+
+.benefit-card__description {
+}
+
+.benefits-section__artist {
 }

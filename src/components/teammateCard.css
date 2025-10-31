@@ -3,12 +3,6 @@
   flex-direction: column;
 }
 
-.teammate-cards-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 20%));
-  gap: 5%;
-}
-
 .teammate-card-img {
   fill: #e7ebfc;
 }

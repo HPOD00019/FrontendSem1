@@ -3,3 +3,13 @@
   display: flex;
   justify-content: center;
 }
+
+.closing-headline {
+  padding-top: 10rem;
+}
+
+.closing-headline__text {
+  color: black;
+  text-align: center;
+  font-size: var(--font-md);
+}

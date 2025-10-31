@@ -1,29 +1,9 @@
-.solution-card__button {
-  color: var(--color-button-bg);
-  align-items: center;
-  gap: 1em;
-  border: none;
-}
-
-.solution-card__button-ico {
-  fill: var(--color-button-bg);
-  height: 0.5em;
-  width: auto;
-}
-
 .solution-card__button-wrapper {
   margin-top: auto;
 }
 
 .solution-card__ico {
   margin-bottom: auto;
-}
-
-.solution-card__button-content-wrapper {
-  margin-top: auto;
-  display: inline-flex;
-  gap: 1em;
-  align-items: center;
 }
 
 .solution-card {

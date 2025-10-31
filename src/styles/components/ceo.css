@@ -1,0 +1,32 @@
+.ceo {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.ceo__img-container {
+  height: 10rem;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.ceo__personal-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ceo__img {
+  height: 100%;
+  width: 100%;
+}
+
+.ceo__name {
+  font-weight: 500;
+  font-size: var(--font-md);
+}
+
+.ceo__description {
+  font-weight: 300;
+  font-size: var(--font-sm);
+}

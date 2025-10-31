@@ -3,7 +3,7 @@
   flex-direction: row;
 }
 
-.logos-container {
+.logos {
   width: 100%;
   display: grid;
   gap: 1rem;
@@ -23,11 +23,11 @@
   color: black;
 }
 
-.consumers-count {
+.logos-panel__contumers {
   font-size: 3rem;
   font-weight: 650;
 }
 
-.consumers-description {
-  font-size: 1.5rem;
+.logos-panel__text-content {
+  font-size: var(--font-sm);
 }
