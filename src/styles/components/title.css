@@ -9,11 +9,11 @@
 }
 
 .title--light {
-  color: white;
+  color: var(--color-secondary-text);
 }
 
 .title--dark {
-  color: black;
+  color: var(--color-primary-text);
 }
 
 .title--centered {

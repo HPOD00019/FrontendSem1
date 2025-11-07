@@ -1,5 +1,6 @@
-.solution-card__button-wrapper {
+.solution-card__button {
   margin-top: auto;
+  width: fit-content;
 }
 
 .solution-card__ico {
@@ -7,13 +8,11 @@
 }
 
 .solution-card {
-  max-width: 20rem;
   border-radius: 5px;
   height: 100%;
   justify-content: center;
   padding: 2rem 1rem;
-  color: black;
-  background-color: white;
+  background-color: var(--color-solution-card-bg);
   display: flex;
   flex-direction: column;
 }
@@ -22,4 +21,10 @@
   display: flex;
   flex-direction: column;
   gap: 1em;
+}
+
+.solution-card__title {
+}
+
+.solution-card__description {
 }

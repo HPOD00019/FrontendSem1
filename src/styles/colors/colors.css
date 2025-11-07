@@ -1,4 +1,15 @@
+
 :root {
+  --color-primary-button: white;
+  --color-footer-bg: var(--color-green-dark);
+  --color-teammate-img: #e7ebfc;
+  --color-primary-text: black;
+  --color-secondary-text: white;
+  --color-header-bg: white;
+  --color-primary-button: white;
+  --color-secondary-background: white;
+  --color-primary-title: black;
+  --color-secondary-title: white;
   --color-green-dark: #052825;
   --color-button-bg: #2e4fd7;
   --color-white: #e3e3e3;

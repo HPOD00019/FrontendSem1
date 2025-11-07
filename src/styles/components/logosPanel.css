@@ -12,7 +12,7 @@
   grid-auto-flow: column;
 }
 
-.logos-item {
+.logos__item {
   width: 160px;
   height: 90px;
   object-fit: contain;

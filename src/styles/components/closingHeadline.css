@@ -6,10 +6,10 @@
 
 .closing-headline {
   padding-top: 10rem;
+  background-color: var(--color-secondary-background);
 }
 
 .closing-headline__text {
-  color: black;
   text-align: center;
   font-size: var(--font-md);
 }

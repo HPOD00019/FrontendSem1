@@ -1,7 +1,7 @@
 .button {
   display: inline-flex;
   height: fit-content;
-  width: auto;
+  width: fit-content;
   align-items: center;
   justify-content: center;
   padding: 0.3em 1.25em;
@@ -9,20 +9,21 @@
   cursor: pointer;
   border: none;
   font-size: 1rem;
+  color: var(--color-primary-button);
+  fill: var(--color-primary-button);
 }
 
 .button__text {
+  text-wrap: nowrap;
 }
 
 .button__ico {
   height: 0.7em;
   width: auto;
-  fill: white;
 }
 
 .button__ico--bg-blue {
   fill: var(--color-button-bg);
-  height: 0.5em;
 }
 
 .button--bg-blue {

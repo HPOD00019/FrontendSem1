@@ -1,13 +1,10 @@
 .ceo {
   display: flex;
   flex-direction: row;
-  gap: 1.5rem;
+  gap: var(--space-sm, 10rem);
 }
 
 .ceo__img-container {
-  height: 10rem;
-  width: auto;
-  flex-shrink: 0;
 }
 
 .ceo__personal-data {
@@ -18,7 +15,8 @@
 
 .ceo__img {
   height: 100%;
-  width: 100%;
+  width: auto;
+  flex-shrink: 0;
 }
 
 .ceo__name {

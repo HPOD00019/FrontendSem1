@@ -1,7 +1,6 @@
 .artist-panel-holder {
   justify-content: space-between;
   width: 100%;
-  color: black;
   padding-top: 5rem;
   padding-bottom: 5rem;
   display: flex;
@@ -12,13 +11,11 @@
 
 .artist-panel__description {
   overflow-y: hidden;
-  font-size: 40px;
+  font-size: 1em;
 }
 
 .artist-panel {
   width: 100%;
-  height: 431px;
-  max-width: 922px;
   display: flex;
   flex-direction: row;
   gap: var(--space-md);
@@ -26,21 +23,22 @@
 
 .artist-panel__img {
   flex-shrink: 0;
-  height: 418px;
+  height: 10em;
   width: auto;
 }
 
 .artist-panel__name {
-  font-size: var(--font-sm);
+  font-size: 0.65em;
   font-weight: var(--font-bold);
 }
 
 .artist-panel__job {
   color: grey;
+  font-size: 0.4em;
 }
 
 .artist-panel__text-content {
-  max-height: 418px;
+  max-height: 10em;
   align-items: start;
   display: flex;
   flex-direction: column;
@@ -49,10 +47,21 @@
 
 .artist-panel__logo {
   margin-top: auto;
-  height: 37px;
+  height: 1em;
   width: auto;
   min-height: 0.5rem;
 }
 
-.artist-panel__button {
+.artist-panel-holder__button {
+  height: 65px;
+  width: 65px;
+}
+
+.artist-panel-holder__panel {
+}
+
+.benefits-section__logos {
+}
+
+.logos-panel__items {
 }

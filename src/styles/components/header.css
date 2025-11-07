@@ -15,7 +15,6 @@
   gap: var(--space-sm, 10rem);
   display: flex;
   flex-direction: row;
-  color: black;
   text-wrap: nowrap;
 }
 
@@ -24,5 +23,4 @@
 }
 
 .header__logo {
-  color: black;
 }

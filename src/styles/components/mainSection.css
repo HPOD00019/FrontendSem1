@@ -10,6 +10,14 @@
   margin-right: 30%;
 }
 
+.main-section__action {
+  width: fit-content;
+}
+
+.main-section__ceo {
+  height: 10rem;
+}
+
 @media (--sm-viewport) {
   .main-section__content {
     margin-top: 0;
@@ -45,9 +53,6 @@
   font-size: var(--font-md, 1px);
   font-style: italic;
   font-weight: 300;
-}
-
-.main-section__ceo {
 }
 
 .main-section__nav {

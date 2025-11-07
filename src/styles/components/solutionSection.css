@@ -1,11 +1,10 @@
 .solution-section {
-  background-color: var(--color-green);
+  background-color: var(--color-primary-background);
 }
 
 .solution-section__title {
   width: 100%;
-  display: flex;
-  justify-content: center;
+  align-items: center;
 }
 
 .solution-section__cards {
@@ -17,8 +16,12 @@
   justify-items: center;
 }
 
-.solution-page__footer {
+.solution-section__footer {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.solution-section__cards-item {
+  max-width: 20rem;
 }

@@ -7,5 +7,16 @@
 
 .benefits-section {
   padding-top: 10rem;
-  background-color: white;
+  background-color: var(--color-secondary-background);
+}
+
+.benefits-section__title {
+}
+
+.benefits-section__cards-item {
+  height: 80px;
+}
+
+.benefits-section__artist {
+  font-size: 40px;
 }

@@ -1,18 +1,17 @@
 .benefit-card {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 1em;
 }
 
 .benefit-card__text-wrapper {
-  color: black;
   display: flex;
   flex-direction: column;
 }
 
 .benefit-card__ico {
   flex-shrink: 0;
-  height: 72px;
+  height: 80%;
   width: auto;
 }
 

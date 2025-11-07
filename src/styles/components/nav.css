@@ -1,7 +1,6 @@
-.nav__list {
-  display: flex;
-  gap: 2rem;
+.nav__item {
 }
 
-.nav__item {
+.nav {
+  display: flex;
 }

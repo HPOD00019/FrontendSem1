@@ -7,6 +7,7 @@
 .team-section__cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 20%));
-  gap: 2%;
+  gap: 30px;
   justify-content: space-between;
+  font-size: 2rem;
 }

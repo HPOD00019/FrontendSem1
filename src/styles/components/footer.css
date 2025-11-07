@@ -2,6 +2,7 @@
   padding-top: 2rem;
   gap: 1rem;
   padding-bottom: 5rem;
+  background-color: var(--color-footer-bg);
 }
 
 .footer__nav-panel {
@@ -31,11 +32,11 @@
   flex-direction: row;
 }
 
-.footer-end-line {
+.footer__end-line {
   flex: 1;
 }
 
-.footer-dates {
+.footer__dates {
   flex: 1;
   text-align: right;
 }
