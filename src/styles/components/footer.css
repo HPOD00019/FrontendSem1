@@ -3,6 +3,7 @@
   gap: 1rem;
   padding-bottom: 5rem;
   background-color: var(--color-footer-bg);
+  color: var(--color-secondary-text);
 }
 
 .footer__nav-panel {

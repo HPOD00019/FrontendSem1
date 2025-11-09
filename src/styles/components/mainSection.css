@@ -1,5 +1,5 @@
 .main-section {
-  background-color: var(--color-green);
+  background-color: var(--color-primary);
 }
 
 .main-section__content {
@@ -16,6 +16,19 @@
 
 .main-section__ceo {
   height: 10rem;
+}
+
+.main-section__title {
+}
+
+.main-section__text-content {
+  font-size: var(--font-md, 1px);
+  font-style: italic;
+  font-weight: 300;
+  color: var(--color-secondary-text);
+}
+
+.main-section__nav {
 }
 
 @media (--sm-viewport) {
@@ -44,16 +57,4 @@
     margin-top: calc(2 * var(--space-xl));
     margin-right: 30%;
   }
-}
-
-.main-section__title {
-}
-
-.main-section__text-content {
-  font-size: var(--font-md, 1px);
-  font-style: italic;
-  font-weight: 300;
-}
-
-.main-section__nav {
 }

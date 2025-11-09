@@ -57,7 +57,8 @@
   --font-xs: 1rem;
 }
 
-.home-page{
+.home-page {
   font-family: var(--font-family);
   color: black;
+  background-color: rgb(59 59 59);
 }

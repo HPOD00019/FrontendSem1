@@ -27,3 +27,5 @@
 @import './styles/components/solutionSection.css';
 @import './styles/components/circleButton.css';
 @import './styles/components/teamSection.css';
+@import './styles/colors/light.css';
+@import './styles/colors/dark.css';

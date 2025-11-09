@@ -1,7 +1,9 @@
 :root {
   color-scheme: light;
 
-  --color-primary: var(--color-white);
-  --color-secondary: var(--color-black);
+  --color-primary: var(--color-green-dark);
+  --color-secondary: var(--color-white);
   --color-header-bg: var(--color-white);
+  --color-secondary-text: var(--color-white);
+  --color-secondary-background: var(--color-white);
 }

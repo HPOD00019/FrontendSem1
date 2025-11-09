@@ -1,6 +1,14 @@
-:root {
-  color-scheme: dark;
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
 
-  --color-primary: var(--color-black);
-  --color-secondary: var(--color-white);
+    --color-primary-text: var(--color-white);
+    --color-secondary-text: var(--color-black);
+    --color-primary: gold;
+    --color-secondary: black;
+  }
+
+  .home-page {
+    color: var(--color-white);
+  }
 }

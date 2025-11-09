@@ -1,5 +1,5 @@
 .solution-section {
-  background-color: var(--color-primary-background);
+  background-color: var(--color-primary);
 }
 
 .solution-section__title {
@@ -23,5 +23,6 @@
 }
 
 .solution-section__cards-item {
-  max-width: 20rem;
+  height: 354px;
+  width: 350px;
 }
