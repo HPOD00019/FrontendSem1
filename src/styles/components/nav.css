@@ -1,6 +1,31 @@
 .nav__item {
+  text-wrap: nowrap;
 }
 
 .nav {
   display: flex;
+}
+
+@media (--xl-viewport) {
+}
+
+@media (--lg-viewport) {
+  .nav {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (--md-viewport) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (--sm-viewport) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
 }

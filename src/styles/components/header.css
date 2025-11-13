@@ -24,3 +24,57 @@
 
 .header__logo {
 }
+
+@media (--xl-viewport) {
+}
+
+@media (--lg-viewport) {
+}
+
+@media (--md-viewport) {
+  .header__nav {
+    display: none;
+  }
+
+  .header__nav * {
+    display: none !important;
+  }
+
+  .header {
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: center;
+  }
+
+  .header__logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (--sm-viewport) {
+  .header__nav {
+    display: none;
+  }
+
+  .header__nav * {
+    display: none !important;
+  }
+
+  .header {
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: center;
+  }
+
+  .header__logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .header__book {
+    display: none !important;
+  }
+}

@@ -28,3 +28,24 @@
 .title--straight {
   white-space: nowrap;
 }
+
+@media (--lg-viewport) {
+  .title {
+    font-size: calc(var(--font-lg) * 0.8);
+    color: purple;
+  }
+}
+
+@media (--md-viewport) {
+  .title {
+    font-size: calc(var(--font-md));
+    color: blue;
+  }
+}
+
+@media (--sm-viewport) {
+  .title {
+    font-size: var(--font-md);
+    color: red;
+  }
+}

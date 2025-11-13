@@ -9,11 +9,17 @@
 .footer__nav-panel {
   display: grid;
   grid-template-columns: 1.5fr 2fr;
+  grid-template-areas:
+    'logo nav1'
+    'text nav2'
+    'button auto'
+    '. .';
   align-items: end;
 }
 
 .footer__logo-link {
   font-weight: calc(var(--font-bold) / 1.3);
+  grid-area: logo;
 }
 
 .footer__description {
@@ -28,7 +34,7 @@
 }
 
 .footer__footer {
-  margin-top: 1rem;
+  padding-top: 1rem;
   display: flex;
   flex-direction: row;
 }
@@ -44,4 +50,136 @@
 
 .footer__action {
   margin-right: auto;
+  grid-area: button;
+}
+
+.footer__text-content {
+  grid-area: text;
+}
+
+.footer__logo {
+}
+
+.footer__nav--first {
+  grid-area: nav1;
+}
+
+.footer__nav--second {
+  grid-area: nav2;
+}
+
+@media (--xl-viewport) {
+}
+
+@media (--lg-viewport) {
+  .footer__footer {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__nav--second {
+    margin-right: auto;
+  }
+
+  .footer__nav--first {
+    margin-right: auto;
+  }
+
+  .footer__nav-panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'nav1 .'
+      'nav2 nav2'
+      'text text'
+      'button logo';
+    align-items: end;
+    row-gap: 15px;
+  }
+
+  .footer__nav {
+    margin-left: 0;
+    gap: 0.5em;
+  }
+}
+
+@media (--md-viewport) {
+  .footer__footer {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__nav--second {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer__nav--first {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer__nav-panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'nav1 nav2'
+      'text text'
+      'button logo';
+    align-items: end;
+    row-gap: 15px;
+  }
+
+  .footer__nav {
+    margin-left: auto;
+    gap: 0.5em;
+  }
+
+  .footer__logo {
+    display: none !important;
+  }
+}
+
+@media (--sm-viewport) {
+  .footer__footer {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__nav--second {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer__nav--first {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer__nav-panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'nav1 nav2'
+      'text text'
+      'button logo';
+    align-items: end;
+    row-gap: 15px;
+  }
+
+  .footer__nav {
+    margin-left: auto;
+    gap: 0.5em;
+  }
+
+  .footer__logo {
+    display: none !important;
+  }
 }

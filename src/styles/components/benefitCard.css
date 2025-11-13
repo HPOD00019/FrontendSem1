@@ -23,3 +23,21 @@
 
 .benefits-section__artist {
 }
+
+@media (--xl-viewport) {
+}
+
+@media (--lg-viewport) {
+}
+
+@media (--md-viewport) {
+}
+
+@media (--sm-viewport) {
+  .benefit-card__ico {
+    flex-shrink: 0;
+    height: 80%;
+    width: auto;
+    display: none;
+  }
+}
