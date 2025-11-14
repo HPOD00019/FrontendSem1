@@ -28,6 +28,9 @@
 }
 
 @media (--lg-viewport) {
+  .benefits-section__artist {
+    font-size: 20px;
+  }
 }
 
 @media (--md-viewport) {

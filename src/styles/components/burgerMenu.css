@@ -1,0 +1,86 @@
+.burger-container {
+  position: relative;
+  display: inline-block;
+}
+
+.burger-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+}
+
+.burger-button:hover {
+  background-color: #f0f0f0;
+}
+
+.burger-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.burger-line {
+  stroke: #333;
+  stroke-width: 2;
+  stroke-linecap: round;
+  transition: all 0.3s;
+}
+
+.burger-menu {
+  position: absolute;
+  width: fit-content;
+  top: 100%;
+  left: auto;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 200px;
+  z-index: 1000;
+  visibility: hidden;
+}
+
+.burger-menu.active {
+  visibility: visible;
+}
+
+.burger-menu__item {
+  text-decoration: none;
+  font-size: var(--font-sm);
+  font-style: var(--font-family);
+  display: block;
+  transition: background-color 0.3s;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.burger-menu__item:hover {
+  text-decoration-line: underline;
+}
+
+@media (--xl-viewport) {
+}
+
+@media (--lg-viewport) {
+}
+
+@media (--md-viewport) {
+  .burger-button {
+    display: flex;
+  }
+}
+
+@media (--sm-viewport) {
+  .burger-button {
+    display: flex;
+  }
+}

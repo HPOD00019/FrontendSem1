@@ -10,7 +10,7 @@
 }
 
 .artist-panel__description {
-  overflow-y: hidden;
+  overflow-y: scroll;
   font-size: 1em;
 }
 
@@ -42,10 +42,10 @@
   align-items: start;
   display: flex;
   flex-direction: column;
-  overflow-y: hidden;
 }
 
 .artist-panel__logo {
+  flex-shrink: 0;
   margin-top: auto;
   height: 1em;
   width: auto;

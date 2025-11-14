@@ -8,6 +8,7 @@
   width: 100%;
   padding-right: 10%;
   padding-left: 10%;
+  position: relative;
 }
 
 .header__nav {
@@ -16,6 +17,7 @@
   display: flex;
   flex-direction: row;
   text-wrap: nowrap;
+  font-size: var(--font-xs);
 }
 
 .header__book {
@@ -25,19 +27,31 @@
 .header__logo {
 }
 
+.header__burger {
+  margin-left: auto;
+}
+
 @media (--xl-viewport) {
 }
 
 @media (--lg-viewport) {
+  .header__nav {
+    margin-left: var(--space-md);
+    gap: 10px;
+  }
 }
 
 @media (--md-viewport) {
+  .header__book {
+    display: none;
+  }
+
   .header__nav {
     display: none;
   }
 
   .header__nav * {
-    display: none !important;
+    display: none;
   }
 
   .header {
@@ -59,7 +73,7 @@
   }
 
   .header__nav * {
-    display: none !important;
+    display: none;
   }
 
   .header {
@@ -75,6 +89,6 @@
   }
 
   .header__book {
-    display: none !important;
+    display: none;
   }
 }

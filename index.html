@@ -23,6 +23,23 @@
       <div class="container">
         <script type="module" src="/src/index.js"></script>
         <div class="header">
+          <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const burgerButton = document.getElementById('burger-button');
+                const burgerMenu = document.getElementById('menu');
+
+                burgerButton.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    burgerMenu.classList.toggle('active');
+                });
+
+                document.addEventListener('click', function(e) {
+                    if (!burgerMenu.contains(e.target)) {
+                        burgerMenu.classList.remove('active');
+                    }
+                });
+            });
+          </script>
           <a href="#" class="header__logo tweakful-logo">
             <svg class="tweakful-logo__img" viewBox="0 0 45 34" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g class="dark-treangle">
@@ -41,16 +58,29 @@
             <li class="nav__item"><a class="nav__link" href="#">Features</a></li>
             <li class="nav__item"><a class="nav__link" href="#">About Us</a></li>
             <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">Help</a></li>
+            <li class="nav__item "><a class="nav__link" href="#">Help</a></li>
           </ul>
-
+          <ul class="burger-menu" id="menu">
+            <li class="burger-menu__item "><a  href="#">Home</a></li>
+            <li class="burger-menu__item "><a href="#">Features</a></li>
+            <li class="burger-menu__item "><a  href="#">About Us</a></li>
+            <li class="burger-menu__item "><a  href="#">Pricing</a></li>
+            <li class="burger-menu__item  "><a href="#">Help</a></li>
+            <li class="burger-menu__item"><a href="#">Book a Meeting</a>
+          </ul>
           <button type="button" class="header__book button button--bg-blue">
               <span class="button__text">Book A Meeting</span>
               <svg class="button__ico" width="100%" height="100%" viewBox="0 0 20 10"  xmlns="http://www.w3.org/2000/svg">
                 <path d="M16.17 6L13.59 8.59L15 10L20 5L15 0L13.59 1.41L16.17 4H0V6H16.17Z" />
               </svg>
           </button>
-
+          <button class="header__burger burger-button" id="burger-button">
+            <svg class="burger-icon" viewBox="0 0 24 24">
+                <line class="burger-line" x1="3" y1="6" x2="21" y2="6"/>
+                <line class="burger-line" x1="3" y1="12" x2="21" y2="12"/>
+                <line class="burger-line" x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
         </div>
             
         <div class="main-section section">
